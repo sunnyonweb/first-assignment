@@ -34,7 +34,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 240px;
+    margin: 0px 300px;
     
 }
 .logo{
@@ -74,5 +74,51 @@ nav{
   font-weight: bold;
   border-radius: 18px;
   border: none;
+}
+
+/* action section style */
+
+.action-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  margin: 150px 300px 0px 300px;
+}
+.action-title{
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+.action-sub-title{
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: #3d3d45;
+}
+.action-button{
+  font-size: 28px;
+  font-family:"Raleway", sans-serif;
+  color: white;
+  background-color: #4E47FF;
+  padding: 18px 38px;
+  font-weight: bold;
+  border-radius: 18px;
+  border: none;
+}
+.action-img{
+  border-radius: 40px;
+}
+
+/* Productive Users Section */
+
+.user-section{
+  background-color: #e5e7ff;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 100%;
+  margin: 150px 300px 0px 300px;
+  border-radius: 30px;
 }
 
