@@ -287,6 +287,70 @@ nav{
     color: rgba(179, 179, 179, 1);
 }
 
+
+/* fucus section */
+
+.focus-section{
+  margin: 150px 80px 0px 80px;
+  height: 750px;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.focus-contant{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.focus-contant h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: center;
+    color: #252432;
+    text-align: center;
+    margin: 0;
+}
+
+.focus-contant p {
+    font-size: 20px;
+    color: rgba(36, 50, 48, 0.5);
+}
+
+.focus-contant button {
+  font-size: 28px;
+  font-family:"Raleway", sans-serif;
+  color: white;
+  background-color: #4E47FF;
+  padding: 18px 38px;
+  font-weight: bold;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+.focus-contant button:hover{
+  background-color: #37cf50;
+  color: black;
+}
+
+.focus-contant img {
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+}
+
+
+
+
+
+
 /* get in touch section */
 
 .contact-section{
